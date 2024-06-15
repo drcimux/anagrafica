@@ -4,6 +4,34 @@ This project implements a backend system for managing Anagrafiche using Java 17 
 
 Below are the APIs available for managing Anagrafiche:
 
+
+### Steps to Start the Project Eclipse
+
+- Simply comment out the Docker file and insert the PostgreSQL database values in the application.yml file under these properties:
+
+	```bash 
+	spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
+	spring.datasource.url=${SPRING_DATASOURCE_URL}
+	spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
+	 ```
+	An example:
+	
+	```bash 
+	spring.datasource.url=jdbc:postgresql://localhost:5432/test_neo
+	 ```
+
+- Run the following command to build the project:
+
+	```bash 
+	mvn clean package install
+	 ```
+	 
+- Then start the application with:
+
+```bash 
+Run As > Spring Boot App
+ ```
+
 ### Steps to Start the Project:
 
 1. **Install Docker**: Ensure Docker is installed on your computer. You can download it from [docker.com]  (https://www.docker.com/get-started) and follow the installation instructions for your operating system.
@@ -44,6 +72,13 @@ or you can access to  [OpenAPI definition](http://localhost:8081/swagger-ui/inde
 #### POST /api/anagrafiche/upload
 
 - Upload Anagrafiche via a CSV file.
+
+You can download the CSV file containing sample data from the link below:
+
+[Download CSV File](./test_anagrafiche_valid_end.csv)
+
+Feel free to use this file for testing or reference purposes.
+
 
 ## Authentication API
 
