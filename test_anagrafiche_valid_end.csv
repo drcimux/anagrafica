@@ -1,0 +1,26 @@
+nome,cognome,dataNascita,citta,codiceFiscale
+Mario,Rossi,15-03-1985,Cosenza,RSSMRA85C15C123A
+Giulia,Bianchi,21-07-1990,Vibo Valentia,BNCGIU90L21V123B
+Luigi,Esposito,10-12-1982,Rende,RSSMRA85C15C123C
+Anna,Romano,03-05-1978,Pizzo,RMNNTA78E03V123D
+Francesca,Gallo,18-09-1995,Paola,GLLFNC95P18C123E
+Alessandro,De Luca,25-11-1987,Lamezia Terme,DLCALX87S25V123F
+Sara,Conti,07-04-1980,Tropea,CNTSRA80D07C123G
+Antonio,Ferraro,12-08-1993,Filadelfia,FRRNTN93M12V123H
+Elisa,Barbieri,28-02-1984,Amantea,BRBLSE84B28C123I
+Giovanni,Russo,11-06-1976,Vibo Marina,RSSGNN76H11V123L
+Martina,De Santis,05-10-1991,Praia a Mare,DSTMTN91R05C123M
+Paolo,Marino,30-01-1989,Scalea,MRNPLO89A30V123N
+Valentina,Caruso,14-07-1983,Soverato,CRSVAL83L14C123O
+Andrea,Fiore,22-09-1979,Rosarno,FRNDRX79P22V123P
+Chiara,Fontana,08-12-1996,Diamante,FNTCHR96T08C123Q
+Simone,Galli,02-03-1981,Briatico,GLLSMN81C02V123R
+Laura,Riva,19-08-1986,Palmi,RVALAU86M19C123S
+Marco,Morelli,25-04-1977,Tropea,MRLMRC77D25V123T
+Eleonora,Rizzo,09-11-1994,Roseto Capo Spulico,RZZELN94S09C123U
+Fabio,Leone,14-06-1988,Rogliano,LNEFBA88H14V123Z
+,,,Vibo Valentia,BNCGIU90L29V123B
+Eleonora,Rizzo,09-11-1994,Roseto Capo Spulico,RZZELN94S09C123U
+Mario,,15/031985,Cosenza,RSSMRA85C15C123A
+,Gentile,20-10-1992,Amantea,
+
