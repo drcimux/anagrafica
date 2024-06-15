@@ -1,0 +1,25 @@
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+spring:
+  datasource:
+    username: ${SPRING_DATASOURCE_USERNAME}
+    url: ${SPRING_DATASOURCE_URL}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+  application:
+    name: anagrafica-api
+  cache:
+    caffeine:
+      spec: maximumSize=1000,expireAfterAccess=300s # Specifica le caratteristiche della cache Caffeine con una dimensione massima di 1000 elementi e un tempo di scadenza di 300 secondi dopo l'ultimo accesso
+    cache-names: anagrafiche
+secret: A31E8C6D5BF7E9A08C6D7E528A4F01B5E26C9D0F387E4A1B5C76D4E7A9081B5A3E28C76D7A08C6D5B7E9A0B4C76D8A4F012E5C6D9A
+header:
+  file:
+    anagrafica: "nome,cognome,dataNascita,citta,codiceFiscale"
